@@ -1,0 +1,15 @@
+{
+  "extends": "@zextras/carbonio-ui-configs/rules/typescript.json",
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/types/network/xmpp/decs.d.ts",
+    "./src/tests/jest-env-setup.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "skipLibCheck": true
+  },
+}
